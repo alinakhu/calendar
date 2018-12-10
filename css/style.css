@@ -1,0 +1,95 @@
+body {
+    background-color: #02b09e;
+    background: linear-gradient(to left, #0096d5, #02b09e);
+}
+
+#calendar {
+    max-width: 800px;
+    margin: auto;
+}
+
+#calendar .fc-day {
+    transition: all 0.5s;
+}
+
+#calendar .fc-day:hover {
+    background: #ccc;
+
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+
+}
+
+#myForm_l, #myForm_r {
+    width: 50%;
+    height: auto;
+    top: 17%;
+    left: 33%;
+    background: white;
+    border-radius: 5px;
+    padding: 30px;
+}
+
+form {
+    margin: 30px;
+}
+
+.form-group label {
+    font-size: 20px;
+}
+
+input.btn.btn-primary {
+    display: block;
+    max-width: 90px;
+    background-color: white;
+}
+
+button.btn-primary{
+    width: 100%;
+    border: 1px solid #009688;
+}
+
+.btn.btn-primary.disabled {
+    border: 1px solid rgba(0, 0, 0, .26);
+}
+
+h1 {
+    text-align: center;
+}
+
+.with-errors {
+    color: #d50000;
+}
+
+.form-group {
+
+    margin: 20px 0;
+}
+
+.form-group p {
+    text-align: center;
+}
+
+.custom-file-control, input.form-control:invalid {
+    /*background: no-repeat bottom, 50% 100%;*/
+}
+
+th.ui-widget-header {
+    border: none;
+    background: transparent;
+     border-style: none;
+     border-width: 0px;
+}
+button.btn.btn-success {
+    font-size: 14px;
+    width: 100%;
+}
+
+.ui-button-icon-only .ui-icon {
+    margin-top: -9px;
+}
